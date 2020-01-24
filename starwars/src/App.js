@@ -3,13 +3,7 @@ import './App.css';
 import CharacterData from "./components/CharacterData"
 import styled from 'styled-components'
 
-const Container = styled.div`
-display:flex;
-flex-direction: column;
-align-items: center;
-border: 10px solid red;
-flex-wrap: nowrap;
-`
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -22,9 +16,12 @@ const App = () => {
     
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <Container>
+     
+    
       <CharacterData/>
-      </Container>
+      <div>
+        PS: if the background is set to cover the cards will attempt to fit in one picture which results in a super zoomed in background picture.
+      </div>
     </div>
     
   )
