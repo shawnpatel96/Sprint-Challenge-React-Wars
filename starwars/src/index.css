@@ -3,5 +3,6 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-image: url('./sw-bg.jpg');
-  background-size: cover;
+  background-size: ;
 }
+/* PS: if the background is set to cover the cards will attempt to fit in one picture which results in a super zoomed in background picture. */
