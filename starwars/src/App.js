@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import CharacterData from "./components/CharacterData"
-import styled from 'styled-components'
+
 
 
 
