@@ -38,6 +38,7 @@ function CharacterData() {
 
           //STRETCH CODE
     for(let items in chars){
+        console.log(items)
             let string=chars[items]+""
             if(string.includes(search)){
                 return (
@@ -56,7 +57,7 @@ function CharacterData() {
             }
         } // STRETCH CODE ENDS HERE
 
-        
+
           return (
             <CharacterCard
              key={chars.url}
